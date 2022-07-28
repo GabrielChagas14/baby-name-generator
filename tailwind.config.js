@@ -9,12 +9,23 @@ module.exports = {
     "./app.vue"
   ],
   theme: {
+    screens: {
+      'tablet': '682px',
+    },
     extend: {
       fontFamily: {
         'sans': ['sans-serif', 'Arial'],
       },
       colors: {
         'blue': '#1B3C8A',
+        'pink': '#FFEEEC',
+        'dark-pink':'#F95759'
+      },
+      borderRadius: {
+        '4xl': '2rem'
+      },
+      width: {
+        '28pc': '28%', 
       },
     },
   },
